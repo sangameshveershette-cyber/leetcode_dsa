@@ -9,7 +9,7 @@ class Solution {
                 return digits;
             }
         }
-        int res[]=new int[digits.length+1];
+        int res[] = new int[digits.length+1];
         res[0]=1;
         return res;
     }
